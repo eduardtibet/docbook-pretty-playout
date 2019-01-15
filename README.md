@@ -1,1 +1,2 @@
-# docbook2print
+# docbook-pretty-playout project
+
