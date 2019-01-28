@@ -1,0 +1,3 @@
+[submodule "docbook-samples"]
+	path = docbook-samples
+	url = https://github.com/eduardtibet/docbook-samples
