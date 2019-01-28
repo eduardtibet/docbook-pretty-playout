@@ -7,7 +7,14 @@
      exclude-result-prefixes="d #default fm"
      version="1.0">
 
-<xsl:import href="/opt/docbook/core/docbook5-xsl-latest/fo/docbook.xsl"/>
+<!-- You can use either globally located DocBook XSL Stylesheets or the ones installed on your own machine/server. You can use either one import (local) or another one (global), but not both ones to import _stock_ xsl stylesheets. Uncommenting both imports may, in general case, lead to an unpredictable results! -->
+
+     
+<!-- ET: Uncomment this line and comment the next import statement, if you want to use DocBook stylesheets available globally (from CDN) -->
+<!-- <xsl:import href="https://cdn.docbook.org/release/xsl/1.79.2/fo/docbook.xsl"/> -->
+
+<!-- ET: Install a DocBook XSL stylesheets locally, change/configure the path to the fo/docbook.xsl on your machine if you want to work with a local copy of a stylesheets. It is the best choice for a faster rendering speeds -->  
+ <xsl:import href="/opt/docbook/core/docbook5-xsl-latest/fo/docbook.xsl"/>
 
 <xsl:param name="alignment">justify</xsl:param>
 <!-- ET: glyphs type of the body (main text), used by fop to determine right font triplet  -->
@@ -22,7 +29,8 @@
 <xsl:param name="fop1.extensions" select="1"/>
 <xsl:param name="hyphenate">false</xsl:param>
 
-<xsl:param name="ulink.show" select="0"/>
+<xsl:param name="ulink.show" select="1"/>
+<xsl:param name="ulink.footnotes" select="1"/>
 
 <xsl:param name="page.margin.bottom" select="'15mm'"/>
 
