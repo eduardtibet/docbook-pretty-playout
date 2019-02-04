@@ -85,32 +85,14 @@ $ git clone --recursive https://github.com/eduardtibet/docbook-pretty-playout.gi
 
 **NOTE:** You have to use `--recursive` option, because the directory with a samples is a separate author's [project](https://github.com/eduardtibet/docbook-samples) and is included as a git submodule here!
 
-6. Change a directory to the foponts project:
+4.  Although it is not required (you can use any FOP configuration file or even don't use it at all), author highly recommends to use a [foponts](https://github.com/eduardtibet/foponts) project in conjunction with a current one to get a fully satisfied result.
 
-```
-$ cd foponts
-```
-
-7. foponts is initially configured to run in a FOD mode, so use your favorite text editor to change the default value of a `<font-base>` element in `foponts.xml` file to the actual local path to a directory with a downloaded fonts:
-
-Default:
-
-```xml
-<font-base>http://www.singlesourcing.ru/pub/foponts/foponts-fonts/</font-base>
-```
-
-Change to:
-```xml
-<font-base>/home/[your_user_directory]/foponts-pdf-generation/foponts-fonts/</font-base>
-```
-
-**NOTE:** Trailing slash is a must thing here!
 
 ## Usage
 
-To get your `.pdf` files use either 1-step or 2-steps processing. Although it is not required (you can use any FOP configuration file or even don't use it at all), author highly recommends to use [foponts](https://github.com/eduardtibet/foponts) project to get a fully satisfied result.
+You can get a `.pdf` files from your source DocBook/XML files using either 1-step or 2-steps processing.
 
-To get your pdf file with 1-step processing:
+To get your `.pdf` file with 1-step processing:
 
 1. Run Apache FOP with the following command line (use `-c` option and corresponding value only in case you use _foponts_ project or any other custom generated configuration file for Apache FOP; in any other case - leave it out):
 
@@ -124,9 +106,9 @@ fop -c <your_path_to_foponts_project>/foponts.xml -xml docbook-samples/stdf/stdf
 $ xpdf docbook-samples/stdf/stdf_manual.pdf
 ```
 
-To get your pdf file with 2-step processing (`xsltproc` xslt engine is shown as an example):
+To get your `.pdf` file with 2-step processing (`xsltproc` xslt engine is shown below as an example):
 
-1. First get a `.fo` file from DocBook source (a sample below shows generating a sample file from a `docbook-samples` project):
+1. First get a `.fo` file from DocBook source (a sample below shows generating a sample file using files from a `docbook-samples` subdirectory/project):
 ```
 xsltproc -o docbook-samples/stdf/stdf_manual.fo docbook-pretty-playout.xsl docbook-samples/stdf/stdf_manual.xml
 ```
