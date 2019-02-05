@@ -6,7 +6,7 @@ Because it's quite simple, fully reflects project goal and sounds good :)
 
 Note, that _playout_ has nothing in common with broadcasting, amateurs radios, etc. The word "playout" is originated and formed from a words **p**age and **layout**.
 
-So, this project deals with XSLT, required to get production ready page layouts output (mostly PDFs) for DocBook/XML documents.
+So, this project deals with a XSLT, required to get production ready output (mostly PDFs) for DocBook/XML documents with a design-approved page layouts in mind. 
 
 ## Why docbook pretty playout was created?
 
@@ -27,11 +27,11 @@ If we talk about print output (technical documentation PDFs), the result using a
 Of course, alot of people would say that DocBook is for a technical documentation and there is nothing with design there. But...
 
 - We all (as a customers) want to look at a good designed documentation, that is easy to read, good to look at, easy to navigate in... rather than the poor one.
-- And we (as a technical writers) want to deliver to our customers best-class documentation not only from the content and accuracy points of view, but from a presentation one too.
+- And we (as a technical writers) want to deliver to our customers best-class documentation not only from a content and accuracy points of view, but from a presentation one too.
 
-Someone can say that a presentation forms and delivery methods are changed so fast that the print output have been outdated already. But there are still and will be many segments where a print documentation (in a form of an electronically delivered `.pdf` files) is and will be the most reliable and usable one. Curious, what exact segment is it? The answer is obvious and quite simple - it is a corporate segment.
+Someone can say that a presentation forms and publications delivery methods are changed so fast that the print output have been outdated already. But there are still and will be many segments where a print documentation (in a form of an electronically delivered `.pdf` files) is and will be the most reliable and usable one. Curious, what exact segment is it? The answer is obvious and quite simple - it is a corporate segment.
 
-### To summarize a problems arised
+### Summarizing a problems arised
 
 So, to summarize all the above information there are two problems exist:
 - using default out-of-box print-related output is quite unpretty and is not ready for customer delivering;
@@ -39,7 +39,7 @@ So, to summarize all the above information there are two problems exist:
 
 ### The far-reaching goal
 
-The primary goal of the project is to provide any newcomer to DocBook or even seasoned DocBook user an affordable way to get pretty, design-approved print output for the full spectrum of technical documentation exists: manuals, marketing brochures, whitepapers, etc.
+The primary goal of the project is to provide any newcomer to a DocBook or even to a seasoned DocBook user an affordable way to get a pretty, design-approved print output for the full spectrum of technical documentation exists: manuals, marketing brochures, whitepapers, etc.
 
 The secondary goal is to provide a some kind of construction kit for any DocBook user to get a custom documents WITH a design layout without any hassle. The idea behind this project is a main ready-to-use design plus easy alternation gears within a design-approved boundaries.
 
@@ -47,9 +47,9 @@ The secondary goal is to provide a some kind of construction kit for any DocBook
 
 As a results:
 
-- rendered PDF documents that uses quality design are ready out-of-box and available for a bunch of a technical documentation varieties (manuals, whitepapers, marketing one-pager and two-pager brochures, etc.);
+- rendered PDF documents that use quality design are ready out-of-box and available for a bunch of a technical documentation varieties (manuals, whitepapers, marketing "one-pager" and "two-pager" brochures, etc.);
 
-- users get a some kind of a construction kit that they can use for theirs own projects to get own customized patterns but with design in mind.
+- users get a some kind of a construction kit that they can use for theirs own projects to get own customized patterns with a lower efforts but with a design in mind.
 
 ## How I can contact the author?
 
