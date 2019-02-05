@@ -47,7 +47,7 @@ $ java -version
 
 3. Any XSLT processor (xsltproc, Xalan, Saxon) installed and working.
 
-**NOTE**: XSLT 1.0 processor recommended. Despite any of XSLT v2.0 or v3.0 processor can work with a v1.0 stylesheets, this can lead to an annoying warnings about using an outdated (v1.0) stylesheets. 
+**NOTE**: XSLT 1.0 processor is recommended. Despite any of XSLT v2.0 or v3.0 processor can work with a v1.0 stylesheets, this can lead to an annoying warnings about using an outdated (v1.0) stylesheets. 
 
 4. Apache FOP 2.1 or newer. You can get the latest FOP [from official download page](https://xmlgraphics.apache.org/fop/download.html). Check if Apache FOP is installed correctly:
 
@@ -61,7 +61,7 @@ $ fop -version
 
 **NOTE 1**: To check how the current project works, a sample source Docbook/XML (`.xml`) document and additional files are provided within a `docbook-samples` directory.
 
-**NOTE 2**: Due to samples, used in this project, are the core of another [project](https://github.com/eduardtibet/docbook-samples/), `docbook-samples` folder is provided as a git submodule within foponts project.
+**NOTE 2**: Due to samples, used in this project, are the core of another [project](https://github.com/eduardtibet/docbook-samples/), `docbook-samples` directory is provided as a git submodule within a current project.
 
 ### Installation steps
 
