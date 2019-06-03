@@ -51,6 +51,6 @@ As a results:
 
 - users get a some kind of a construction kit that they can use for theirs own projects to get own customized patterns with a lower efforts but with a design in mind.
 
-## How I can contact the author?
+## How can I contact the author?
 
 Just drop me a line to eduard.tibet@gmail.com with a "docbook pretty playout" in subject line. I'm very curious to hear about your usage of **docbook pretty playout**.
