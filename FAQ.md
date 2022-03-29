@@ -4,7 +4,7 @@
 
 Because it's quite simple, fully reflects project goal and sounds good :)
 
-Note, that _playout_ has nothing in common with broadcasting, amateurs radios, etc. The word "playout" is originated and formed from a words **p**age and **layout**.
+Note, that _playout_ has nothing in common with broadcasting, amateurs radios, etc. The word "playout" is originated and formed from words **p**age and **layout**.
 
 So, this project deals with a XSLT, required to get production ready output (mostly PDFs) for DocBook/XML documents with a design-approved page layouts in mind. 
 
@@ -26,26 +26,26 @@ If we talk about print output (technical documentation PDFs), the result using a
 
 Of course, alot of people would say that DocBook is for a technical documentation and there is nothing with design there. But...
 
-- We all (as a customers) want to look at a good designed documentation, that is easy to read, good to look at, easy to navigate in... rather than the poor one.
-- And we (as a technical writers) want to deliver to our customers best-class documentation not only from a content and accuracy points of view, but from a presentation one too.
+- We all (as customers) want to look at good designed documentation, that is easy to read, good to look at, easy to navigate in... rather than the poor one.
+- And we (as technical writers) want to deliver to our customers best-class documentation not only from a content and accuracy points of view, but from a presentation one too.
 
 Someone can say that a presentation forms and publications delivery methods are changed so fast that the print output have been outdated already. But there are still and will be many segments where a print documentation (in a form of an electronically delivered `.pdf` files) is and will be the most reliable and usable one. Curious, what exact segment is it? The answer is obvious and quite simple - it is a corporate segment.
 
-### Summarizing a problems arised
+### Summarizing problems arised
 
 So, to summarize all the above information there are two problems exist:
-- using default out-of-box print-related output is quite unpretty and is not ready for customer delivering;
+- using default out-of-box print-related output is quite unpretty as a deliverables;
 - any customization requires efforts that any novice users can't afford either from the point of skills, or from the point of time.
 
-### The far-reaching goal
+### The long-term goal
 
 The primary goal of the project is to provide any newcomer to a DocBook or even to a seasoned DocBook user an affordable way to get a pretty, design-approved print output for the full spectrum of technical documentation exists: manuals, marketing brochures, whitepapers, etc.
 
-The secondary goal is to provide a some kind of construction kit for any DocBook user to get a custom documents WITH a design layout without any hassle. The idea behind this project is a main ready-to-use design plus easy alternation gears within a design-approved boundaries.
+The secondary goal is to provide a some kind of construction kit for any DocBook user to get a custom documents WITH a design layout in mind. The idea behind this project is a main ready-to-use design plus easy alternation gears within design-approved boundaries.
 
-### A results, we can reach
+### Results we can reach
 
-As a results:
+As for results:
 
 - rendered PDF documents that use quality design are ready out-of-box and available for a bunch of a technical documentation varieties (manuals, whitepapers, marketing "one-pager" and "two-pager" brochures, etc.);
 

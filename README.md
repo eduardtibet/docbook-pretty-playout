@@ -30,7 +30,7 @@ The aim of the project is to provide:
 
 - to any newcomer to DocBook or even to a seasoned DocBook user an affordable way to get a pretty, design-approved print output for the full spectrum of technical documentation exists: manuals, marketing brochures, whitepapers, etc.
 
-- a some kind of construction kit for any DocBook user to get a custom documents WITH a design layout without any hassle. The idea behind this project is a main ready-to-use design plus easy alternation gears within a design-approved boundaries.
+- a some kind of construction kit for any DocBook user to get a custom documents WITH a design layout without any hassle. The idea behind this project is to provide anyone to have a main ready-to-use design plus easy alternation gears within a design-approved boundaries.
 
 If you want to get more details - see expanded explanation about, [why this project was created](FAQ.md#why-docbook-pretty-playout-was-created).
 
@@ -47,7 +47,7 @@ $ java -version
 
 3. Any XSLT processor (xsltproc, Xalan, Saxon) installed and working.
 
-**NOTE**: XSLT 1.0 processor is recommended. Despite any of XSLT v2.0 or v3.0 processor can work with a v1.0 stylesheets, this can lead to an annoying warnings about using an outdated (v1.0) stylesheets. 
+**NOTE**: XSLT 1.0 processor is recommended. Despite any of XSLT v2.0 or v3.0 processor can work with a v1.0 stylesheets, this can lead to annoying warnings about using an outdated (v1.0) stylesheets. 
 
 4. Apache FOP 2.1 or newer. You can get the latest FOP [from official download page](https://xmlgraphics.apache.org/fop/download.html). Check if Apache FOP is installed correctly:
 
@@ -56,7 +56,7 @@ $ fop -version
 ```
 
 5. Git - to clone the repo.
-6. Any utility (or web browser) - to download a files (`wget` is recommended).
+6. Any utility (or web browser) - to download files (`wget` is recommended).
 7. Any Docbook/XML v5.0/5.1 file (document) you need to convert to a PDF file.
 
 **NOTE 1**: To check how the current project works, a sample source Docbook/XML (`.xml`) document and additional files are provided within a `docbook-samples` directory.
@@ -90,7 +90,7 @@ $ git clone --recursive https://github.com/eduardtibet/docbook-pretty-playout.gi
 
 ## Usage
 
-You can get a `.pdf` files from your source DocBook/XML files using either 1-step or 2-steps processing.
+You can get `.pdf` files from your source DocBook/XML files using either 1-step or 2-steps processing.
 
 To get your `.pdf` file with 1-step processing:
 
@@ -100,7 +100,7 @@ To get your `.pdf` file with 1-step processing:
 fop -c <your_path_to_foponts_project>/foponts.xml -xml docbook-samples/stdf/stdf_manual.xml -xsl docbook-pretty-playout.xsl -pdf docbook-samples/stdf/stdf_manual.pdf
 ```
 
-2. Look at the result just opening the generated file `stdf_manual.pdf` (or any other generated file of your own) in your favorite PDF viewer:
+2. Look at the result by opening the generated file `stdf_manual.pdf` (or any other generated file of your own) in your favorite PDF viewer:
 
 ```
 $ xpdf docbook-samples/stdf/stdf_manual.pdf
@@ -108,7 +108,7 @@ $ xpdf docbook-samples/stdf/stdf_manual.pdf
 
 To get your `.pdf` file with 2-steps processing (`xsltproc` xslt engine is shown below as an example):
 
-1. First get a `.fo` file from a DocBook source (a sample below shows generating a sample file using files from a `docbook-samples` subdirectory/project):
+1. First get a `.fo` file from a DocBook source (a sample below shows generating a sample file using a `docbook-samples` subdirectory/project):
 ```
 xsltproc -o docbook-samples/stdf/stdf_manual.fo docbook-pretty-playout.xsl docbook-samples/stdf/stdf_manual.xml
 ```
